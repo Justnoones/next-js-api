@@ -63,7 +63,7 @@ const Home = () => {
           />
         </section>
         <section className='w-3/6 flex flex-col space-y-3'>
-          <label htmlFor="message" className='text-2xl font-bold'>User Name</label>
+          <label htmlFor="message" className='text-2xl font-bold'>Message</label>
           <textarea
             name="message"
             value={message}
